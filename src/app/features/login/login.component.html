@@ -1,0 +1,21 @@
+<div class="container">
+    <app-loading></app-loading>
+    <form [formGroup]="usersForm" (ngSubmit)="onSubmit()">
+        <div class="form-field">
+            <label for="email">Email</label>
+            <input name="email" type="email" formControlName="email">
+        </div>
+        <div class="form-field">
+            <label for="password">Password</label>
+            <input class="password" type="password" formControlName="password">
+        </div>
+        <button type="submit" [disabled]="!usersForm.valid">Login</button>
+        <button type="button" (click)="toggleMode()">{{isRegister ? 'Login' : 'Register'}}</button>
+    </form>
+    <p *ngIf="error">
+        {{error}}
+    </p>
+    <p *ngIf="loading">
+        LOADING....
+    </p>
+</div>

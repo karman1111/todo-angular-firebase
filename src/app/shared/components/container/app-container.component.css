@@ -1,0 +1,25 @@
+.sidebar-container {
+    padding: 20px;
+    width: 250px;
+    background: #1B2028;
+    position: fixed;
+    border-radius: 0;
+}
+.sidebar-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main {
+    padding: 20px 20px 0px;
+    height: calc(100vh - 20px);
+    background: #31353F;
+    color: #fff;
+}

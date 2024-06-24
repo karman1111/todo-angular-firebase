@@ -1,0 +1,15 @@
+16:30:45.085 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+16:30:45.180 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+16:30:47.946 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - inova-logic-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 84ms, init: 0ms
+16:30:47.996 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace inova-logic-default-rtdb status Active to Active
+16:30:51.248 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace fake-server, but the emulator is configured for inova-logic-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+16:30:51.257 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - fake-server successfully activated FBKV (SurveyIdle(0)) wait: 2ms, init: 0ms
+16:31:27.176 [FirebaseWorkerPool-1-2] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace inova-logic, but the emulator is configured for fake-server,inova-logic-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+16:31:27.205 [NamespaceSystem-akka.actor.default-dispatcher-15] INFO com.firebase.core.namespace.NamespaceActor - inova-logic successfully activated FBKV (SurveyIdle(0)) wait: 22ms, init: 0ms
+16:33:18.366 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.

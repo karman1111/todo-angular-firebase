@@ -1,0 +1,18 @@
+
+.header-container {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.btn-add {
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+    transition: all .3s;
+}
+
+.btn-add:hover {
+    background-color: rgb(5, 81, 5);
+}
